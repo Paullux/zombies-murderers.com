@@ -3700,3 +3700,10 @@ input, select, textarea {
 			}
 
 	}
+	#menuLanguage {
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -50px;
+    }
+
