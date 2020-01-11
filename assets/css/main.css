@@ -928,6 +928,14 @@ input, select, textarea {
 			object-position: top;
 		}
 
+    .image[data-position="mytop"] img {
+      -moz-object-position: top;
+      -webkit-object-position: top;
+      -ms-object-position: top;
+      object-position: top;
+      width: 100%;
+    }
+
 		.image[data-position="top right"] img {
 			-moz-object-position: top right;
 			-webkit-object-position: top right;
@@ -2776,7 +2784,7 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			height: auto;
+			height: 100%;
 		}
 
 			.panel > *.color1 {
